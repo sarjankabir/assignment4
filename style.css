@@ -1,0 +1,127 @@
+
+ .body{
+ background-color: ##fff2e6;
+
+ }
+ #page{
+
+max-width:1080px;
+padding: 0 15px;
+margin: 0 auto;
+
+ }
+ p{text-align:justify;
+  margin: 5px 0 15px;
+ 
+ }
+img.alignnone {
+    margin-bottom: 12px;
+}
+ .h1{
+	 text-align:center;
+	    font-family: 'Dauphin';
+		font-weight: 400;
+	 font-size:60px;
+ }
+ .h2{color:red;
+	 text-align:left;
+	  font-family: bodoni,serif;
+	  font-weight: 400;
+	 font-size:20px;
+ }
+ .container {
+ position: absolute;
+ left: 25%;
+ margin-left: -50px;
+ width: 800px;
+ height: 100%;
+ text-align: center;
+  background-color: inherit;
+
+ }
+ 
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  font-family: Helvetica Neue;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover { background-color: #111;
+}
+  
+  .ingredients {
+    display: inline;
+    float: left;
+    margin-bottom: 40px;
+  width: 30%;}
+  
+  .instructions {
+    clear: right;
+    display: inline;
+    float: right;
+    margin-bottom: 40px;
+  width: 63%;}
+ 
+ .simmer-ingredients{
+  margin:0}
+  .simmer-instructions{
+  margin:0}
+
+.simmer-ingredients li {
+    margin-bottom: 0.5em;
+	list-style-type: disc;
+}
+.simmer-instructions li {
+    margin-bottom: 0.5em;
+	text-align: left;
+	    display: list-item;
+}
+
+}
+li {
+    display: list-item;
+    text-align: left;
+}
+.simmer-recipe-footer{
+    border-top: 1px solid #eee;
+    clear: both;
+    padding: 20px 0;
+	border-color: rgba( 61, 61, 61, 0.2);
+}
+
+ .simmer-recipe-tools {
+    float: right;
+    text-align: right;
+    width: 48%;
+ }
+ .simmer-recipe-tools li:last-child {
+    margin-right: 0;
+}
+
+ .site-footer {
+    font-family: "PT Serif","Helvetica Neue",sans-serif;
+    font-weight: 400;
+ }
+ .site-footer {
+  
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
