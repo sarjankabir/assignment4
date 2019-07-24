@@ -20,13 +20,13 @@ img.alignnone {
  .h1{
 	 text-align:center;
 	    font-family: 'Dauphin';
-		font-weight: 400;
+		font-weight: 800;
 	 font-size:60px;
  }
- .h2{color:red;
+ h2{color:red;
 	 text-align:left;
 	  font-family: bodoni,serif;
-	  font-weight: 400;
+	  font-weight: 800;
 	 font-size:20px;
  }
  .container {
@@ -52,9 +52,16 @@ li {
   float: left;
 }
 
+#comment {
+padding: 20px 0;}
+
+hr{
+width:800px;}
+
 li a {
   display: block;
   font-family: Helvetica Neue;
+  font-weight:800;
   color: red;
   text-align: center;
   padding: 14px 16px;
@@ -97,31 +104,40 @@ li {
     display: list-item;
     text-align: left;
 }
-.simmer-recipe-footer{
-    border-top: 1px solid #eee;
-    clear: both;
-    padding: 20px 0;
-	border-color: rgba( 61, 61, 61, 0.2);
-}
 
- .simmer-recipe-tools {
-    float: right;
-    text-align: right;
-    width: 48%;
- }
- .simmer-recipe-tools li:last-child {
-    margin-right: 0;
+
+label {
+float:left;
+font-family: Poppins-Regular;}
+input {
+    outline: none;
+    border: none;
 }
+.wrap-input{
+	width: 100%;
+    position: relative;
+    border-bottom: 2px solid #adadad;
+margin-bottom: 37px;}
 
  .site-footer {
     font-family: "PT Serif","Helvetica Neue",sans-serif;
-    font-weight: 400;
- }
- .site-footer {
-  
+    font-weight: 400;  
     font-size: 10px;
     letter-spacing: 2px;
     padding: 20px 0;
     text-align: center;
     text-transform: uppercase;
+}
+
+input.input2 {
+    height: 45px;
+}
+
+.input2 {
+    display: block;
+    width: 100%;
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.2;
 }
